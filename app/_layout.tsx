@@ -7,7 +7,10 @@ I18nManager.forceRTL(true);
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
-    'SpaceMono-Regular': require('../assets/fonts/SpaceMono-Regular.ttf'),
+    'Amiri-Regular': require('../assets/fonts/Amiri-Regular.ttf'),
+    'Amiri-Bold': require('../assets/fonts/Amiri-Bold.ttf'),
+    'Amiri-BoldItalic': require('../assets/fonts/Amiri-BoldItalic.ttf'),
+    'Amiri-Italic': require('../assets/fonts/Amiri-Italic.ttf')
   });
   if (!fontsLoaded) {
     return null;

@@ -15,7 +15,7 @@ export default function TabLayout() {
       tabBarActiveTintColor: '#715312',
       tabBarInactiveTintColor: '#6F5E4E',
       tabBarLabelStyle: {
-        fontFamily: 'SpaceMono-Regular',
+        fontFamily: 'Amiri-Bold',
         fontSize: 12,
       },
       tabBarIcon: ({ focused, color }) => (
@@ -47,7 +47,7 @@ export default function TabLayout() {
             <Tabs.Screen
         name="convert"
         options={{
-          title: 'Convert',
+          title: 'تحويل التاريخ',
           tabBarIcon: ({ color, size, focused }) => (
             <View style={{
               backgroundColor: focused ? '#FFDDC0' : 'transparent',
